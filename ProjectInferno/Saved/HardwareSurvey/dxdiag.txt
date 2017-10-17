@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-Time of this report: 10/5/2017, 15:17:55
+Time of this report: 10/17/2017, 15:02:19
        Machine name: T248-16
    Operating System: Windows 7 Professional 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_ldr.161011-0600)
            Language: English (Regional Setting: English)
@@ -11,7 +11,7 @@ System Manufacturer: Dell Inc.
           Processor: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz (8 CPUs), ~3.6GHz
              Memory: 16384MB RAM
 Available OS Memory: 16324MB RAM
-          Page File: 5207MB used, 11313MB available
+          Page File: 4219MB used, 12302MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -217,13 +217,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 285.8 GB
+ Free Space: 285.9 GB
 Total Space: 476.8 GB
 File System: NTFS
       Model: Samsung SSD 850 EVO 500G SCSI Disk Device
 
       Drive: D:
- Free Space: 448.9 GB
+ Free Space: 448.5 GB
 Total Space: 476.9 GB
 File System: NTFS
       Model: ST500DM0 02-1BD142 SCSI Disk Device
