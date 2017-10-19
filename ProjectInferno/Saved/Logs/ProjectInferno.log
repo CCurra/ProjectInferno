@@ -501,3 +501,20 @@ LogInit: Object subsystem initialized
 [2017.10.19-18.49.48:391][343]LogSlate: Took 0.063486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
 [2017.10.19-18.50.01:331][550]LogRenderer: Reallocating scene render targets to support 988x588 Format 10 NumSamples 1 (Frame:96).
 [2017.10.19-18.50.04:899][712]LogSlate: Took 0.071592 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.19-20.08.22:727][588]LogEditorViewport: Clicking on Actor (LMB): BackToHud4_C (BackToHud4)
+[2017.10.19-20.08.24:015][589]LogEditorViewport: Clicking on Actor (LMB): BackToHud4_C (BackToHud4)
+[2017.10.19-20.08.45:941][ 36]LogEditorViewport: Clicking Background
+[2017.10.19-20.08.56:527][243]LogAIModule: Creating AISystem for world Buildings
+[2017.10.19-20.09.09:018][243]LogSavePackage: Save=337.61ms
+[2017.10.19-20.09.09:018][243]LogSavePackage: Moving '../../../../../../Users/Phillip/Documents/GitHub/ProjectInferno/ProjectInferno/Saved/Sancturary777BF7DA46F7A69E8241DBB7D8B95B47.tmp' to '../../../../../../Users/Phillip/Documents/GitHub/ProjectInferno/ProjectInferno/Content/ZombieGame/Levels/Sancturary.umap'
+[2017.10.19-20.09.09:028][243]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Phillip/Documents/GitHub/ProjectInferno/ProjectInferno/Content/ZombieGame/Levels/Sancturary.umap
+[2017.10.19-20.09.09:086][243]LogFileHelpers: Saving map 'Sancturary' took 9.751
+[2017.10.19-20.09.09:088][243]Cmd: MAP LOAD FILE="../../../../../../Users/Phillip/Documents/GitHub/ProjectInferno/ProjectInferno/Content/ZombieGame/Levels/Buildings.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.19-20.09.09:089][243]LightingResults: New page: Lighting Build
+[2017.10.19-20.09.09:089][243]LoadErrors: New page: Loading map: Buildings.umap
+[2017.10.19-20.09.09:091][243]MapCheck: New page: Map Check
+[2017.10.19-20.09.09:091][243]LightingResults: New page: Lighting Build
+[2017.10.19-20.09.09:230][243]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.19-20.09.09:294][243]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.19-20.09.09:390][243]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.554ms to complete.
+[2017.10.19-20.09.09:390][243]LogFileHelpers: Loading map 'Buildings' took 0.304
