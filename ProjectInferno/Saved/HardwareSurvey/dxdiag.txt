@@ -1,8 +1,8 @@
 ------------------
 System Information
 ------------------
-Time of this report: 10/17/2017, 15:02:19
-       Machine name: T248-16
+Time of this report: 9/28/2017, 16:57:18
+       Machine name: T248-T
    Operating System: Windows 7 Professional 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_ldr.161011-0600)
            Language: English (Regional Setting: English)
 System Manufacturer: Dell Inc.
@@ -11,7 +11,7 @@ System Manufacturer: Dell Inc.
           Processor: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz (8 CPUs), ~3.6GHz
              Memory: 16384MB RAM
 Available OS Memory: 16324MB RAM
-          Page File: 4219MB used, 12302MB available
+          Page File: 5305MB used, 11215MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -49,12 +49,17 @@ Display Devices
      Display Memory: 4095 MB
    Dedicated Memory: 1989 MB
       Shared Memory: 2106 MB
-       Current Mode: 1920 x 1200 (32 bit) (59Hz)
+       Current Mode: 1680 x 1050 (32 bit) (59Hz)
        Monitor Name: Generic PnP Monitor
       Monitor Model: DELL U2412M
-         Monitor Id: DELA07A
+         Monitor Id: DELA079
         Native Mode: 1920 x 1200(p) (59.950Hz)
-        Output Type: DVI
+        Output Type: Displayport External
+       Monitor Name: Generic Non-PnP Monitor
+      Monitor Model: unknown
+         Monitor Id: 
+        Native Mode: unknown
+        Output Type: HD15
         Driver Name: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um
 Driver File Version: 21.21.0013.7662 (English)
      Driver Version: 21.21.13.7662
@@ -182,9 +187,31 @@ USB Devices
 | | 
 | +-+ Generic USB Hub
 | | | Vendor/Product ID: 0x0424, 0x2514
-| | | Location: Port_#0004.Hub_#0003
+| | | Location: Port_#0003.Hub_#0004
 | | | Matching Device ID: usb\class_09
 | | | Service: usbhub
+| | | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x046D, 0xC077
+| | | Location: Port_#0004.Hub_#0004
+| | | Matching Device ID: generic_hid_device
+| | | Service: HidUsb
+| | | 
+| | +-+ HID-compliant mouse
+| | | | Vendor/Product ID: 0x046D, 0xC077
+| | | | Matching Device ID: hid_device_system_mouse
+| | | | Service: mouhid
+| | | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x413C, 0x2107
+| | | Location: Port_#0006.Hub_#0004
+| | | Matching Device ID: generic_hid_device
+| | | Service: HidUsb
+| | | 
+| | +-+ HID Keyboard Device
+| | | | Vendor/Product ID: 0x413C, 0x2107
+| | | | Matching Device ID: hid_device_system_keyboard
+| | | | Service: kbdhid
 
 ----------------
 Gameport Devices
@@ -193,20 +220,10 @@ Gameport Devices
 ------------
 PS/2 Devices
 ------------
-+ HID Keyboard Device
-| Vendor/Product ID: 0x413C, 0x2107
-| Matching Device ID: hid_device_system_keyboard
-| Service: kbdhid
-| 
 + Terminal Server Keyboard Driver
 | Matching Device ID: root\rdp_kbd
 | Upper Filters: kbdclass
 | Service: TermDD
-| 
-+ HID-compliant mouse
-| Vendor/Product ID: 0x046D, 0xC077
-| Matching Device ID: hid_device_system_mouse
-| Service: mouhid
 | 
 + Terminal Server Mouse Driver
 | Matching Device ID: root\rdp_mou
@@ -217,13 +234,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 285.9 GB
+ Free Space: 287.4 GB
 Total Space: 476.8 GB
 File System: NTFS
       Model: Samsung SSD 850 EVO 500G SCSI Disk Device
 
       Drive: D:
- Free Space: 448.5 GB
+ Free Space: 285.5 GB
 Total Space: 476.9 GB
 File System: NTFS
       Model: ST500DM0 02-1BD142 SCSI Disk Device
@@ -235,38 +252,6 @@ File System: NTFS
 --------------
 System Devices
 --------------
-     Name: Intel(R) USB 3.0 eXtensible Host Controller
-Device ID: PCI\VEN_8086&DEV_8C31&SUBSYS_05A61028&REV_04\3&11583659&0&A0
-   Driver: n/a
-
-     Name: Intel(R) 8 Series/C220 Series PCI Express Root Port #1 - 8C10
-Device ID: PCI\VEN_8086&DEV_8C10&SUBSYS_05A61028&REV_D4\3&11583659&0&E0
-   Driver: n/a
-
-     Name: High Definition Audio Controller
-Device ID: PCI\VEN_10DE&DEV_0E1B&SUBSYS_094C10DE&REV_A1\4&2412C6A&0&0108
-   Driver: n/a
-
-     Name: Intel(R) 8 Series/C220 Series USB EHCI #2 - 8C2D
-Device ID: PCI\VEN_8086&DEV_8C2D&SUBSYS_05A61028&REV_04\3&11583659&0&D0
-   Driver: n/a
-
-     Name: Intel(R) Desktop/Workstation/Server Express Chipset SATA RAID Controller
-Device ID: PCI\VEN_8086&DEV_2822&SUBSYS_05A61028&REV_04\3&11583659&0&FA
-   Driver: n/a
-
-     Name: PCI standard PCI-to-PCI bridge
-Device ID: PCI\VEN_104C&DEV_8240&SUBSYS_05A61028&REV_00\4&32B9B9A1&0&00E1
-   Driver: n/a
-
-     Name: Intel(R) 8 Series/C220 Series USB EHCI #1 - 8C26
-Device ID: PCI\VEN_8086&DEV_8C26&SUBSYS_05A61028&REV_04\3&11583659&0&E8
-   Driver: n/a
-
-     Name: Intel(R) Ethernet Connection I217-LM
-Device ID: PCI\VEN_8086&DEV_153A&SUBSYS_05A61028&REV_04\3&11583659&0&C8
-   Driver: n/a
-
      Name: Intel(R) 8 Series/C220 Series SMBus Controller - 8C22
 Device ID: PCI\VEN_8086&DEV_8C22&SUBSYS_05A61028&REV_04\3&11583659&0&FB
    Driver: n/a
@@ -313,6 +298,34 @@ Device ID: PCI\VEN_8086&DEV_8C12&SUBSYS_05A61028&REV_D4\3&11583659&0&E1
 
      Name: NVIDIA Quadro K2000
 Device ID: PCI\VEN_10DE&DEV_0FFE&SUBSYS_094C10DE&REV_A1\4&2412C6A&0&0008
+   Driver: n/a
+
+     Name: Intel(R) USB 3.0 eXtensible Host Controller
+Device ID: PCI\VEN_8086&DEV_8C31&SUBSYS_05A61028&REV_04\3&11583659&0&A0
+   Driver: n/a
+
+     Name: Intel(R) 8 Series/C220 Series PCI Express Root Port #1 - 8C10
+Device ID: PCI\VEN_8086&DEV_8C10&SUBSYS_05A61028&REV_D4\3&11583659&0&E0
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_10DE&DEV_0E1B&SUBSYS_094C10DE&REV_A1\4&2412C6A&0&0108
+   Driver: n/a
+
+     Name: Intel(R) 8 Series/C220 Series USB EHCI #2 - 8C2D
+Device ID: PCI\VEN_8086&DEV_8C2D&SUBSYS_05A61028&REV_04\3&11583659&0&D0
+   Driver: n/a
+
+     Name: Intel(R) Desktop/Workstation/Server Express Chipset SATA RAID Controller
+Device ID: PCI\VEN_8086&DEV_2822&SUBSYS_05A61028&REV_04\3&11583659&0&FA
+   Driver: n/a
+
+     Name: PCI standard PCI-to-PCI bridge
+Device ID: PCI\VEN_104C&DEV_8240&SUBSYS_05A61028&REV_00\4&32B9B9A1&0&00E1
+   Driver: n/a
+
+     Name: Intel(R) 8 Series/C220 Series USB EHCI #1 - 8C26
+Device ID: PCI\VEN_8086&DEV_8C26&SUBSYS_05A61028&REV_04\3&11583659&0&E8
    Driver: n/a
 
 ------------------
