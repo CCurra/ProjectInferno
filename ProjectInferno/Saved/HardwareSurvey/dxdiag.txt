@@ -1,8 +1,8 @@
 ------------------
 System Information
 ------------------
-Time of this report: 10/19/2017, 15:05:20
-       Machine name: T248-12
+Time of this report: 11/16/2017, 15:08:55
+       Machine name: T248-3
    Operating System: Windows 7 Professional 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_ldr.161011-0600)
            Language: English (Regional Setting: English)
 System Manufacturer: Dell Inc.
@@ -11,7 +11,7 @@ System Manufacturer: Dell Inc.
           Processor: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz (8 CPUs), ~3.6GHz
              Memory: 16384MB RAM
 Available OS Memory: 16324MB RAM
-          Page File: 8600MB used, 7921MB available
+          Page File: 4409MB used, 12112MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -61,7 +61,7 @@ Driver File Version: 21.21.0013.7662 (English)
         DDI Version: 11
        Driver Model: WDDM 1.1
   Driver Attributes: Final Retail
-   Driver Date/Size: 1/10/2017 13:28:05, 17436296 bytes
+   Driver Date/Size: 1/10/2017 12:28:05, 17436296 bytes
         WHQL Logo'd: Yes
     WHQL Date Stamp: 
   Device Identifier: {D7B71E3E-4CBE-11CF-806E-41291BC2D835}
@@ -132,7 +132,7 @@ Sound Devices
          Driver Version: 6.01.7601.17514 (English)
       Driver Attributes: Final Retail
             WHQL Logo'd: Yes
-          Date and Size: 11/20/2010 22:23:47, 350208 bytes
+          Date and Size: 11/20/2010 21:23:47, 350208 bytes
             Other Files: 
         Driver Provider: Microsoft
          HW Accel Level: Basic
@@ -180,15 +180,9 @@ USB Devices
 | | Matching Device ID: usb\class_09
 | | Service: usbhub
 | | 
-| +-+ Generic USB Hub
-| | | Vendor/Product ID: 0x0424, 0x2514
-| | | Location: Port_#0005.Hub_#0003
-| | | Matching Device ID: usb\class_09
-| | | Service: usbhub
-| | | 
 | +-+ USB Input Device
 | | | Vendor/Product ID: 0x046D, 0xC077
-| | | Location: Port_#0003.Hub_#0003
+| | | Location: Port_#0005.Hub_#0004
 | | | Matching Device ID: generic_hid_device
 | | | Service: HidUsb
 | | | 
@@ -196,17 +190,6 @@ USB Devices
 | | | | Vendor/Product ID: 0x046D, 0xC077
 | | | | Matching Device ID: hid_device_system_mouse
 | | | | Service: mouhid
-| | | 
-| +-+ USB Input Device
-| | | Vendor/Product ID: 0x413C, 0x2107
-| | | Location: Port_#0004.Hub_#0003
-| | | Matching Device ID: generic_hid_device
-| | | Service: HidUsb
-| | | 
-| | +-+ HID Keyboard Device
-| | | | Vendor/Product ID: 0x413C, 0x2107
-| | | | Matching Device ID: hid_device_system_keyboard
-| | | | Service: kbdhid
 
 ----------------
 Gameport Devices
@@ -215,6 +198,11 @@ Gameport Devices
 ------------
 PS/2 Devices
 ------------
++ HID Keyboard Device
+| Vendor/Product ID: 0x413C, 0x2107
+| Matching Device ID: hid_device_system_keyboard
+| Service: kbdhid
+| 
 + Terminal Server Keyboard Driver
 | Matching Device ID: root\rdp_kbd
 | Upper Filters: kbdclass
@@ -229,13 +217,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 282.6 GB
+ Free Space: 285.3 GB
 Total Space: 476.8 GB
 File System: NTFS
       Model: Samsung SSD 850 EVO 500G SCSI Disk Device
 
       Drive: D:
- Free Space: 437.2 GB
+ Free Space: 397.9 GB
 Total Space: 476.9 GB
 File System: NTFS
       Model: ST500DM0 02-1BD142 SCSI Disk Device
@@ -247,30 +235,6 @@ File System: NTFS
 --------------
 System Devices
 --------------
-     Name: Intel(R) USB 3.0 eXtensible Host Controller
-Device ID: PCI\VEN_8086&DEV_8C31&SUBSYS_05A61028&REV_04\3&11583659&0&A0
-   Driver: n/a
-
-     Name: Intel(R) 8 Series/C220 Series PCI Express Root Port #1 - 8C10
-Device ID: PCI\VEN_8086&DEV_8C10&SUBSYS_05A61028&REV_D4\3&11583659&0&E0
-   Driver: n/a
-
-     Name: High Definition Audio Controller
-Device ID: PCI\VEN_10DE&DEV_0E1B&SUBSYS_094C10DE&REV_A1\4&2412C6A&0&0108
-   Driver: n/a
-
-     Name: Intel(R) 8 Series/C220 Series USB EHCI #2 - 8C2D
-Device ID: PCI\VEN_8086&DEV_8C2D&SUBSYS_05A61028&REV_04\3&11583659&0&D0
-   Driver: n/a
-
-     Name: Intel(R) Desktop/Workstation/Server Express Chipset SATA RAID Controller
-Device ID: PCI\VEN_8086&DEV_2822&SUBSYS_05A61028&REV_04\3&11583659&0&FA
-   Driver: n/a
-
-     Name: PCI standard PCI-to-PCI bridge
-Device ID: PCI\VEN_104C&DEV_8240&SUBSYS_05A61028&REV_00\4&32B9B9A1&0&00E1
-   Driver: n/a
-
      Name: Intel(R) 8 Series/C220 Series USB EHCI #1 - 8C26
 Device ID: PCI\VEN_8086&DEV_8C26&SUBSYS_05A61028&REV_04\3&11583659&0&E8
    Driver: n/a
@@ -325,6 +289,30 @@ Device ID: PCI\VEN_8086&DEV_8C12&SUBSYS_05A61028&REV_D4\3&11583659&0&E1
 
      Name: NVIDIA Quadro K2000
 Device ID: PCI\VEN_10DE&DEV_0FFE&SUBSYS_094C10DE&REV_A1\4&2412C6A&0&0008
+   Driver: n/a
+
+     Name: Intel(R) USB 3.0 eXtensible Host Controller
+Device ID: PCI\VEN_8086&DEV_8C31&SUBSYS_05A61028&REV_04\3&11583659&0&A0
+   Driver: n/a
+
+     Name: Intel(R) 8 Series/C220 Series PCI Express Root Port #1 - 8C10
+Device ID: PCI\VEN_8086&DEV_8C10&SUBSYS_05A61028&REV_D4\3&11583659&0&E0
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_10DE&DEV_0E1B&SUBSYS_094C10DE&REV_A1\4&2412C6A&0&0108
+   Driver: n/a
+
+     Name: Intel(R) 8 Series/C220 Series USB EHCI #2 - 8C2D
+Device ID: PCI\VEN_8086&DEV_8C2D&SUBSYS_05A61028&REV_04\3&11583659&0&D0
+   Driver: n/a
+
+     Name: Intel(R) Desktop/Workstation/Server Express Chipset SATA RAID Controller
+Device ID: PCI\VEN_8086&DEV_2822&SUBSYS_05A61028&REV_04\3&11583659&0&FA
+   Driver: n/a
+
+     Name: PCI standard PCI-to-PCI bridge
+Device ID: PCI\VEN_104C&DEV_8240&SUBSYS_05A61028&REV_00\4&32B9B9A1&0&00E1
    Driver: n/a
 
 ------------------

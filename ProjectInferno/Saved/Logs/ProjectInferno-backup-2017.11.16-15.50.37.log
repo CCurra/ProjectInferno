@@ -1,0 +1,1338 @@
+﻿Log file open, 11/16/17 15:08:26
+LogInit:Display: Running engine for game: ProjectInferno
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1219509173) SRandInit(1219509173).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.567815
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3452394
+LogInit: Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 22 2017 17:47:00
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.16-21.08.27:248][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.16-21.08.27:248][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.16-21.08.27:294][  0]LogInit: Computer: T248-3
+[2017.11.16-21.08.27:294][  0]LogInit: User: student
+[2017.11.16-21.08.27:294][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.16-21.08.27:294][  0]LogInit: High frequency timer resolution =3.507558 MHz
+[2017.11.16-21.08.27:294][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.16-21.08.27:294][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.16-21.08.27:294][  0]LogMemory: Process Physical Memory: 275.36 MB used, 275.36 MB peak
+[2017.11.16-21.08.27:294][  0]LogMemory: Process Virtual Memory: 263.85 MB used, 263.85 MB peak
+[2017.11.16-21.08.27:294][  0]LogMemory: Physical Memory: 2875.86 MB used,  13447.62 MB free, 16323.47 MB total
+[2017.11.16-21.08.27:294][  0]LogMemory: Virtual Memory: 629.34 MB used,  13447.62 MB free, 8388608.00 MB total
+[2017.11.16-21.08.27:548][  0]LogInit: Using OS detected language (en-US).
+[2017.11.16-21.08.27:548][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.16-21.08.27:589][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.16-21.08.29:601][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.16-21.08.29:943][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2000' (Feature Level 11_0)
+[2017.11.16-21.08.29:943][  0]LogD3D11RHI:       1989/0/7905 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.16-21.08.29:943][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.16-21.08.29:946][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.16-21.08.29:946][  0]LogD3D11RHI:     GPU DeviceId: 0xffe (for the marketing name, search the web for "GPU Device Id")
+[2017.11.16-21.08.29:946][  0]LogWindows: EnumDisplayDevices:
+[2017.11.16-21.08.29:946][  0]LogWindows:    0. 'NVIDIA Quadro K2000' (P:1 D:1)
+[2017.11.16-21.08.29:946][  0]LogWindows:    1. 'NVIDIA Quadro K2000' (P:0 D:0)
+[2017.11.16-21.08.29:946][  0]LogWindows:    2. 'NVIDIA Quadro K2000' (P:0 D:0)
+[2017.11.16-21.08.29:946][  0]LogWindows:    3. 'NVIDIA Quadro K2000' (P:0 D:0)
+[2017.11.16-21.08.29:946][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.11.16-21.08.29:947][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.11.16-21.08.29:947][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.11.16-21.08.29:947][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.16-21.08.29:947][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2000
+[2017.11.16-21.08.29:947][  0]LogD3D11RHI:   Driver Version: 376.62 (internal:21.21.13.7662, unified:376.62)
+[2017.11.16-21.08.29:947][  0]LogD3D11RHI:      Driver Date: 1-10-2017
+[2017.11.16-21.08.29:947][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.16-21.08.30:025][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.16-21.08.30:067][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.16-21.08.30:121][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/ProjectInferno/ProjectInferno/Intermediate/Shaders/WorkingDirectory/3824/).
+[2017.11.16-21.08.30:121][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/student/AppData/Local/Temp/UnrealShaderWorkingDir/945DC7DB4245E46D9829C18970FFEA69/'.
+[2017.11.16-21.08.30:122][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.16-21.08.33:084][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.16-21.08.33:120][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.16-21.08.33:157][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.16-21.08.33:195][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.16-21.08.33:239][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.16-21.08.33:276][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.16-21.08.33:316][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.16-21.08.33:354][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.16-21.08.33:386][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.16-21.08.33:424][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.16-21.08.33:462][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.16-21.08.33:497][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.16-21.08.33:533][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.16-21.08.33:569][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.16-21.08.33:604][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.16-21.08.33:676][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.16-21.08.33:676][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.16-21.08.33:703][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.16-21.08.33:796][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.16-21.08.33:816][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.16-21.08.33:851][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.16-21.08.33:887][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.16-21.08.33:922][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.16-21.08.33:959][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.16-21.08.33:959][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.16-21.08.34:527][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.16-21.08.34:528][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
+[2017.11.16-21.08.34:528][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/ProjectInferno/ProjectInferno/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.16-21.08.34:528][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.16-21.08.34:528][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/ProjectInferno/ProjectInferno/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.16-21.08.34:528][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.16-21.08.34:552][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.16-21.08.34:563][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.16-21.08.34:590][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.16-21.08.34:594][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.16-21.08.34:606][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.16-21.08.34:606][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.16-21.08.36:970][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.16-21.08.36:978][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.16-21.08.37:263][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.16-21.08.37:299][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.16-21.08.37:331][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.16-21.08.37:331][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.16-21.08.37:331][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.16-21.08.38:630][  0]LogNetVersion: ProjectInferno , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3145596337)
+[2017.11.16-21.08.38:715][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2017.11.16-21.08.38:874][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.107753 seconds
+[2017.11.16-21.08.38:879][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.16-21.08.38:879][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.16-21.08.38:879][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.16-21.08.38:923][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.16-21.08.42:084][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.16-21.08.42:114][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.16-21.08.42:550][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.16-21.08.42:872][  0]SourceControl: Info Source control is disabled
+[2017.11.16-21.08.42:873][  0]SourceControl: Info Source control is disabled
+[2017.11.16-21.08.42:910][  0]SourceControl: Info Source control is disabled
+[2017.11.16-21.08.42:943][  0]SourceControl: Info Source control is disabled
+[2017.11.16-21.08.43:515][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.16-21.08.44:031][  0]LogEngine: Initializing Engine...
+[2017.11.16-21.08.44:031][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.16-21.08.44:677][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.16-21.08.44:677][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.16-21.08.44:817][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.16-21.08.44:901][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-21.08.44:915][  0]LogInit: FAudioDevice initialized.
+[2017.11.16-21.08.44:946][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/student/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.16-21.08.44:961][  0]LogInit: Texture streaming: Enabled
+[2017.11.16-21.08.45:041][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.16-21.08.45:392][  0]LogInit: Transaction tracking system initialized
+[2017.11.16-21.08.45:762][  0]BlueprintLog: New page: Editor Load
+[2017.11.16-21.08.46:876][  0]LocalizationService: Info Localization service is disabled
+[2017.11.16-21.08.47:535][  0]LogConsoleResponse:Display: 
+[2017.11.16-21.08.47:994][  0]LogFileCache: Scanning file cache for directory 'D:/ProjectInferno/ProjectInferno/Content/' took 0.04s
+[2017.11.16-21.08.47:994][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.16-21.08.47:994][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.16-21.08.49:289][  0]SourceControl: Info Source control is disabled
+[2017.11.16-21.08.49:309][  0]Cmd: MAP LOAD FILE="D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.16-21.08.49:311][  0]LightingResults: New page: Lighting Build
+[2017.11.16-21.08.49:390][  0]MapCheck: New page: Map Check
+[2017.11.16-21.08.49:390][  0]LightingResults: New page: Lighting Build
+[2017.11.16-21.08.49:488][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:488][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:814][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:815][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:815][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:816][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:844][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:845][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:846][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:846][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:846][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:847][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:847][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:847][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:849][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:849][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:850][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:850][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:850][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:851][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:852][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:852][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:891][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:891][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:892][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:892][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:893][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:893][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:895][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:895][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:896][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:896][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:896][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:896][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:897][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:897][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:897][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:897][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:897][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:898][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:915][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:916][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:916][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:916][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:917][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:917][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:918][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:918][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:918][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:918][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:919][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:919][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:919][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:919][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:920][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:920][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:920][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:920][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:920][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:921][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:921][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:921][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:921][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:921][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:922][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:922][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:922][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:922][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:922][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:923][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:924][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:924][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:924][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:924][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:925][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:926][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:926][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:926][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:926][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:927][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:927][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:927][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:927][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:928][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:928][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:928][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:928][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:929][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:929][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:929][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:929][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:930][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:930][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:930][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:930][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:930][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:931][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:931][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:931][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:931][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:932][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:932][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:932][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:932][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:932][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:932][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:933][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:933][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:933][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:933][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:933][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:934][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:934][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:934][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:934][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:934][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:934][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:935][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:935][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:935][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:935][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:935][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:949][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:949][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:949][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.49:950][  0]LogLinker:Warning: Asset 'D:/ProjectInferno/ProjectInferno/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.16.0-3452394+++UE4+Release-4.16 AssetEngineVersion: 4.17.0-3573198+++UE4+Release-4.17
+[2017.11.16-21.08.50:128][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2017.11.16-21.08.50:577][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
+[2017.11.16-21.08.50:983][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
+[2017.11.16-21.08.51:651][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
+[2017.11.16-21.08.51:920][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2017.11.16-21.08.51:955][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2017.11.16-21.08.52:140][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
+[2017.11.16-21.08.52:344][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
+[2017.11.16-21.08.52:611][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
+[2017.11.16-21.08.52:773][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2017.11.16-21.08.52:796][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2017.11.16-21.08.52:977][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
+[2017.11.16-21.08.53:149][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
+[2017.11.16-21.08.53:409][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
+[2017.11.16-21.08.53:535][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2017.11.16-21.08.53:544][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
+[2017.11.16-21.08.53:603][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 2048X1024)
+[2017.11.16-21.08.53:660][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 2048X1024)
+[2017.11.16-21.08.53:719][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 2048X1024)
+[2017.11.16-21.08.53:780][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 2048X1024)
+[2017.11.16-21.08.53:848][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 2048X1024)
+[2017.11.16-21.08.53:919][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 2048X1024)
+[2017.11.16-21.08.53:984][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
+[2017.11.16-21.08.54:179][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.11.16-21.08.54:292][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.16-21.08.54:304][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.16-21.08.54:348][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.816ms to complete.
+[2017.11.16-21.08.54:348][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.042
+[2017.11.16-21.08.54:518][  0]LogCollectionManager: Loaded 0 collections in 0.001568 seconds
+[2017.11.16-21.08.54:600][  0]LogFileCache: Scanning file cache for directory 'D:/ProjectInferno/ProjectInferno/Saved/Collections/' took 0.01s
+[2017.11.16-21.08.54:600][  0]LogFileCache: Scanning file cache for directory 'D:/ProjectInferno/ProjectInferno/Content/Developers/student/Collections/' took 0.01s
+[2017.11.16-21.08.54:600][  0]LogFileCache: Scanning file cache for directory 'D:/ProjectInferno/ProjectInferno/Content/Collections/' took 0.01s
+[2017.11.16-21.08.54:600][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.11.16-21.08.54:610][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2329 classes and 491 folders.
+[2017.11.16-21.08.54:660][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.16-21.08.54:916][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.16-21.08.54:953][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.16-21.08.55:010][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.16-21.08.55:024][  0]LogSlate: Took 0.005569 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.16-21.08.55:030][  0]LogSlate: Took 0.003393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.16-21.08.55:039][  0]LogSlate: Took 0.003492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.16-21.08.55:141][  0]LogRenderer: Reallocating scene render targets to support 1208x652 NumSamples 1 (Frame:1).
+[2017.11.16-21.08.55:362][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.16-21.08.55:362][  0]LogLoad: (Engine Initialization) Total time: 31.47 seconds
+[2017.11.16-21.08.55:362][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2017.11.16-21.08.55:362][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.16-21.08.55:362][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.16-21.08.55:371][  0]LogOcInput: OculusInput pre-init called
+[2017.11.16-21.08.55:371][  0]LogHMD: Starting GearVRController plugin
+[2017.11.16-21.08.55:372][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Arrow': FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+[2017.11.16-21.08.55:372][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'FirstPersonCamera': FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+[2017.11.16-21.08.55:372][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CollisionCylinder': FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+[2017.11.16-21.08.55:372][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharMoveComp': FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+[2017.11.16-21.08.55:372][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'L_MotionController': FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+[2017.11.16-21.08.55:372][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'R_MotionController': FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+[2017.11.16-21.08.55:372][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharacterMesh0': FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+[2017.11.16-21.08.55:373][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'FP_Gun': FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+[2017.11.16-21.08.55:373][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Mesh2P': FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+[2017.11.16-21.08.55:373][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'VR_Gun': FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+[2017.11.16-21.08.55:373][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sphere': FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+[2017.11.16-21.08.55:373][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'VR_Marker': FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+[2017.11.16-21.08.55:548][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.16-21.08.55:628][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/ProjectInferno/ProjectInferno/Content/' took 0.24s
+[2017.11.16-21.08.55:643][  1]LogAssetRegistry: Asset discovery search completed in 16.9488 seconds
+[2017.11.16-21.08.55:645][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.11.16-21.08.55:646][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.11.16-21.08.57:332][ 87]LogStreaming:Warning: Failed to open ANSI TEXT file D:/ProjectInferno/ProjectInferno/Saved/HardwareSurvey/dxdiag.txt
+[2017.11.16-21.08.57:365][ 88]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2017.11.16-21.08.57:365][ 88]LogSynthBenchmark:Display: ===============
+[2017.11.16-21.08.57:365][ 88]LogSynthBenchmark:Display: Main Processor:
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:          ... 0.018753 s/Run 'RayIntersect'
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:          ... 0.019545 s/Run 'Fractal'
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display: 
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   NumberOfCores (logical): 8
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   CPU Perf Index 0: 136.6 (weight 1.00)
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   CPU Perf Index 1: 146.3 (weight 1.50)
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:  
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display: Graphics:
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA Quadro K2000'
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   Vendor Id: 0x10DE
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   Device Id: 0xFFE
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   Device Revision: 0xA1
+[2017.11.16-21.08.57:557][ 88]LogSynthBenchmark:Display:   GPU Memory: 1990/0/7906 MB
+[2017.11.16-21.08.57:662][ 88]LogSynthBenchmark:Display:   GPU first test: 0.07s
+[2017.11.16-21.08.57:662][ 88]LogSynthBenchmark:Display:          ... 1.024 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2017.11.16-21.08.57:662][ 88]LogSynthBenchmark:Display:          ... 1.654 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2017.11.16-21.08.57:662][ 88]LogSynthBenchmark:Display:          ... 0.858 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2017.11.16-21.08.57:662][ 88]LogSynthBenchmark:Display:          ... 4.644 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2017.11.16-21.08.57:662][ 88]LogSynthBenchmark:Display:          ... 0.212 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2017.11.16-21.08.57:662][ 88]LogSynthBenchmark:Display:          ... 0.452 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2017.11.16-21.08.57:662][ 88]LogSynthBenchmark:Display:          ... 0.796 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:   GPU second test: 0.65s
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 1.092 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 1.851 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 0.914 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 6.174 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 0.225 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 0.412 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 0.738 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:   GPU Final Results:
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 1.092 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 1.851 s/GigaPix, Confidence=100% 'TexHeavy'
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 0.914 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 6.174 s/GigaPix, Confidence=100% 'FillOnly'
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 0.225 s/GigaPix, Confidence=100% 'Bandwidth'
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 0.412 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:          ... 0.738 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display: 
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:   GPU Perf Index 0: 23.7 (weight 1.00)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:   GPU Perf Index 1: 24.9 (weight 0.10)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:   GPU Perf Index 2: 23.8 (weight 0.10)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:   GPU Perf Index 3: 24.2 (weight 3.00)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:   GPU Perf Index 4: 21.0 (weight 1.00)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:   GPU Perf Index 5: 26.8 (weight 0.00)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:   GPU Perf Index 6: 41.7 (weight 0.00)
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:   CPUIndex: 142.4
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display:   GPUIndex: 23.5
+[2017.11.16-21.08.58:345][ 88]LogSynthBenchmark:Display: 
+[2017.11.16-21.08.58:346][ 88]LogSynthBenchmark:Display:          ... Total Time: 0.980376 sec
+[2017.11.16-21.08.58:435][ 88]LogWindows: FWindowsPlatformSurvey::TickSurveyHardware() WinSAT assessment state is out-of-date. Unable to examine some hardware metrics. Run the Windows Experience Index Assessment.
+[2017.11.16-21.08.58:445][ 88]LogSlate: Took 0.003994 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-21.08.59:618][151]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-21.09.14:187][907]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-21.09.14:683][907]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D'
+[2017.11.16-21.09.14:684][907]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D' while loading D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/IB_Assets/M_HardWood_Floor1.uasset.
+[2017.11.16-21.09.14:684][907]LoadErrors:Error: Error /Game/ZombieGame/Custom_assets/IB_Assets/M_HardWood_Floor1 : Can't find file for asset. /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D
+[2017.11.16-21.09.14:684][907]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D_NRM'
+[2017.11.16-21.09.14:684][907]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D_NRM' while loading D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/IB_Assets/M_HardWood_Floor1.uasset.
+[2017.11.16-21.09.14:684][907]LoadErrors:Error: Error /Game/ZombieGame/Custom_assets/IB_Assets/M_HardWood_Floor1 : Can't find file for asset. /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D_NRM
+[2017.11.16-21.09.14:684][907]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D'
+[2017.11.16-21.09.14:684][907]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D' while loading D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/IB_Assets/M_HardWood_Floor1.uasset.
+[2017.11.16-21.09.14:685][907]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D_NRM'
+[2017.11.16-21.09.14:685][907]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D_NRM' while loading D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/IB_Assets/M_HardWood_Floor1.uasset.
+[2017.11.16-21.09.14:716][907]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door03'
+[2017.11.16-21.09.14:716][907]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door03' while loading D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Levels/OldLibrary.umap.
+[2017.11.16-21.09.14:716][907]LoadErrors:Error: Error /Game/ZombieGame/Levels/OldLibrary : Can't find file for asset. /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door03
+[2017.11.16-21.09.14:717][907]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door03'
+[2017.11.16-21.09.14:717][907]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door03' while loading D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Levels/OldLibrary.umap.
+[2017.11.16-21.09.14:718][907]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door03'
+[2017.11.16-21.09.14:718][907]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door03' while loading NULL.
+[2017.11.16-21.09.14:718][907]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door03'
+[2017.11.16-21.09.14:718][907]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door03' while loading NULL.
+[2017.11.16-21.09.15:055][907]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D'
+[2017.11.16-21.09.15:055][907]LoadErrors: Info Failed to load /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D.T_HardWood_Floor_D Referenced by MaterialExpressionTextureSample_3
+[2017.11.16-21.09.15:055][907]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D' while loading NULL.
+[2017.11.16-21.09.15:055][907]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D_NRM'
+[2017.11.16-21.09.15:055][907]LoadErrors: Info Failed to load /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D_NRM.T_HardWood_Floor_D_NRM Referenced by MaterialExpressionTextureSample_9
+[2017.11.16-21.09.15:055][907]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_HardWood_Floor_D_NRM' while loading NULL.
+[2017.11.16-21.09.15:580][907]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door03'
+[2017.11.16-21.09.15:580][907]LoadErrors: Info Failed to load /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door03.SM_Exo_Decos_Door03 Referenced by SM_Exo_Decos_Door03_2
+[2017.11.16-21.09.15:580][907]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door03' while loading NULL.
+[2017.11.16-21.09.15:593][907]LogTexture:Display: Building textures: tx_BookSide_r (AutoDXT, 512X512)
+[2017.11.16-21.09.15:630][907]LogTexture:Display: Building textures: tx_BookSide_n (BC5, 512X512)
+[2017.11.16-21.09.15:649][907]LogMaterial: Missing cached shader map for material m_BookCover, compiling. 
+[2017.11.16-21.09.15:729][907]LogTexture:Display: Building textures: tx_BookSide (AutoDXT, 512X512)
+[2017.11.16-21.09.15:767][907]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.16-21.09.15:775][907]LogMaterial: Missing cached shader map for material Test_floor, compiling. 
+[2017.11.16-21.09.15:799][907]LogMaterial: Missing cached shader map for material M_Wood_Walnut_darken, compiling. 
+[2017.11.16-21.09.16:083][907]LogTexture:Display: Building textures: T_Wood_Pine_D1 (AutoDXT, 2048X2048)
+[2017.11.16-21.09.18:832][907]LogMaterial: Missing cached shader map for material M_Wood_Pine1, compiling. 
+[2017.11.16-21.09.18:873][907]LogMaterial: Missing cached shader map for material M_HardWood_Floor1, compiling. 
+[2017.11.16-21.09.18:873][907]LogMaterial:Warning: Failed to compile Material /Game/ZombieGame/Custom_assets/IB_Assets/M_HardWood_Floor1.M_HardWood_Floor1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.16-21.09.18:873][907]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.11.16-21.09.18:878][907]LogTexture:Display: Building textures: booktop (BGRA8, 734X137)
+[2017.11.16-21.09.18:892][907]LogMaterial: Missing cached shader map for material booktop_Mat, compiling. 
+[2017.11.16-21.09.18:916][907]LogTexture:Display: Building textures: books (BGRA8, 703X113)
+[2017.11.16-21.09.18:928][907]LogMaterial: Missing cached shader map for material books_Mat, compiling. 
+[2017.11.16-21.09.18:951][907]LogMaterial: Missing cached shader map for material Book_Red, compiling. 
+[2017.11.16-21.09.19:184][907]LogTexture:Display: Building textures: tx_BookCover (AutoDXT, 2048X2048)
+[2017.11.16-21.09.21:349][907]LogMaterial: Missing cached shader map for material m_BookSide, compiling. 
+[2017.11.16-21.09.21:461][907]LogTexture:Display: Building textures: tx_BookCover_s (AutoDXT, 2048X2048)
+[2017.11.16-21.09.22:863][907]LogTexture:Display: Building textures: tx_BookCover_n (BC5, 2048X2048)
+[2017.11.16-21.09.23:287][907]LogTexture:Display: Building textures: tx_BookSide_s (AutoDXT, 512X512)
+[2017.11.16-21.09.23:433][907]LogTexture:Display: Building textures: tx_BookCover_r (AutoDXT, 2048X2048)
+[2017.11.16-21.09.24:582][907]LogStaticMesh: Building static mesh sm_book...
+[2017.11.16-21.09.24:588][907]LogStaticMesh: Built static mesh [0.01s] /Game/PolymodelsLibrary/Meshes/sm_book.sm_book
+[2017.11.16-21.09.25:198][907]LogMaterial: Missing cached shader map for material tx_BookCover_Mat, compiling. 
+[2017.11.16-21.09.25:244][907]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.16-21.09.25:359][907]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.11.16-21.09.25:373][907]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.16-21.09.25:430][907]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.11.16-21.09.25:440][907]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.16-21.09.25:491][907]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.11.16-21.09.25:496][907]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 512X512)
+[2017.11.16-21.09.25:505][907]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.11.16-21.09.25:509][907]LogMaterial: Missing cached shader map for material Wood_floor, compiling. 
+[2017.11.16-21.09.25:543][907]LogAIModule: Creating AISystem for world OldLibrary
+[2017.11.16-21.09.25:853][907]Cmd: MAP LOAD FILE="D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Levels/OldLibrary.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.16-21.09.25:853][907]LightingResults: New page: Lighting Build
+[2017.11.16-21.09.25:854][907]LoadErrors: New page: Loading map: OldLibrary.umap
+[2017.11.16-21.09.25:855][907]MapCheck: New page: Map Check
+[2017.11.16-21.09.25:855][907]LightingResults: New page: Lighting Build
+[2017.11.16-21.09.26:203][907]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.16-21.09.26:251][907]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.16-21.09.26:314][907]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.775ms to complete.
+[2017.11.16-21.09.26:315][907]LogFileHelpers: Loading map 'OldLibrary' took 0.464
+[2017.11.16-21.09.43:510][557]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.16-21.09.58:583][136]LogRenderer: Reallocating scene render targets to support 1208x668 NumSamples 1 (Frame:1237).
+[2017.11.16-21.09.58:661][137]LogRenderer: Reallocating scene render targets to support 1208x684 NumSamples 1 (Frame:1239).
+[2017.11.16-21.09.58:773][138]LogRenderer: Reallocating scene render targets to support 1208x696 NumSamples 1 (Frame:1241).
+[2017.11.16-21.09.58:869][139]LogRenderer: Reallocating scene render targets to support 1208x720 NumSamples 1 (Frame:1243).
+[2017.11.16-21.09.58:947][140]LogRenderer: Reallocating scene render targets to support 1208x744 NumSamples 1 (Frame:1245).
+[2017.11.16-21.09.59:049][141]LogRenderer: Reallocating scene render targets to support 1208x756 NumSamples 1 (Frame:1247).
+[2017.11.16-21.09.59:128][142]LogRenderer: Reallocating scene render targets to support 1208x772 NumSamples 1 (Frame:1249).
+[2017.11.16-21.11.46:323][418]MapCheck: New page: Map Check
+[2017.11.16-21.11.46:380][418]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.16-21.11.46:381][418]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.16-21.16.09:442][418]LogEditorServer: Cleared 46 NULL BSP materials after rebuild.
+[2017.11.16-21.16.09:446][418]LightingResults: New page: Lighting Build - Nov 16, 2017, 9:16:09 AM
+[2017.11.16-21.16.10:027][418]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.16-21.16.10:045][418]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.16-21.16.10:057][418]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.16-21.16.10:635][418]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.16-21.16.10:635][418]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3824
+[2017.11.16-21.16.18:931][418]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.16-21.16.18:931][418]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.16-21.16.18:931][418]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.16-21.16.18:931][418]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.16-21.16.18:931][418]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.16-21.16.19:668][418]LogEditorBuildUtils: Build time 4:33
+[2017.11.16-21.16.19:680][418]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_128, compiling. 
+[2017.11.16-21.16.19:685][418]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_128, compiling. 
+[2017.11.16-21.16.19:718][419]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer mi_BookCover, compiling. 
+[2017.11.16-21.16.19:725][419]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer mi_BookCover, compiling. 
+[2017.11.16-21.16.19:893][420]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer mi_BookSide, compiling. 
+[2017.11.16-21.16.19:902][420]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer mi_BookSide, compiling. 
+[2017.11.16-21.16.19:950][421]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_AssetPlatform, compiling. 
+[2017.11.16-21.16.19:960][421]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_AssetPlatform, compiling. 
+[2017.11.16-21.16.20:016][422]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Wood_floor, compiling. 
+[2017.11.16-21.16.20:029][422]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Wood_floor, compiling. 
+[2017.11.16-21.16.20:081][423]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.11.16-21.16.20:090][423]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.11.16-21.16.20:117][424]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Pine, compiling. 
+[2017.11.16-21.16.20:127][424]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Pine, compiling. 
+[2017.11.16-21.16.20:149][425]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Oak, compiling. 
+[2017.11.16-21.16.20:158][425]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Oak, compiling. 
+[2017.11.16-21.16.20:182][426]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2017.11.16-21.16.20:191][426]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2017.11.16-21.16.20:220][427]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Walnut_darken, compiling. 
+[2017.11.16-21.16.20:231][427]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Walnut_darken, compiling. 
+[2017.11.16-21.16.20:258][428]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_HardWood_Floor1, compiling. 
+[2017.11.16-21.16.20:263][428]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_HardWood_Floor1, compiling. 
+[2017.11.16-21.16.20:298][429]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Walnut, compiling. 
+[2017.11.16-21.16.20:307][429]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Walnut, compiling. 
+[2017.11.16-21.16.20:370][430]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Test_floor, compiling. 
+[2017.11.16-21.16.20:381][430]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Test_floor, compiling. 
+[2017.11.16-21.16.20:446][431]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Pine1, compiling. 
+[2017.11.16-21.16.20:455][431]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Pine1, compiling. 
+[2017.11.16-21.16.20:476][432]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer books_Mat, compiling. 
+[2017.11.16-21.16.20:483][432]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer books_Mat, compiling. 
+[2017.11.16-21.16.20:505][433]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2017.11.16-21.16.20:512][433]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2017.11.16-21.16.20:535][434]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer booktop_Mat, compiling. 
+[2017.11.16-21.16.20:544][434]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer booktop_Mat, compiling. 
+[2017.11.16-21.16.20:566][435]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Book_Red, compiling. 
+[2017.11.16-21.16.20:574][435]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Book_Red, compiling. 
+[2017.11.16-21.16.20:593][436]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer tx_BookCover_Mat, compiling. 
+[2017.11.16-21.16.20:601][436]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer tx_BookCover_Mat, compiling. 
+[2017.11.16-21.16.20:643][437]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling. 
+[2017.11.16-21.16.20:653][437]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling. 
+[2017.11.16-21.16.29:247][519]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.11.16-21.16.29:247][519]LightingResults: Info <None> Lightmap UV are overlapping by 34.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.16-21.16.29:797][526]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.11.16-21.16.29:797][526]LightingResults: Info <None> Lightmap UV are overlapping by 18.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.16-21.16.35:569][604]Job is a success!
+[2017.11.16-21.16.38:669][605]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.16-21.16.38:669][605]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.16-21.16.38:669][605]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.11.16-21.16.38:669][605]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2017.11.16-21.16.38:669][605]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.11.16-21.16.38:669][605]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
+[2017.11.16-21.16.38:669][605]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
+[2017.11.16-21.16.38:669][605]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2017.11.16-21.16.38:869][605]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 128X32)
+[2017.11.16-21.16.38:869][605]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 32X32)
+[2017.11.16-21.16.38:939][605]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2017.11.16-21.16.39:074][605]Lightmass on T248-3: 12.1 sec total, 384 ms importing, 125 ms setup, 762 ms photons, 10.8 sec processing, 0 ms extra exporting [13893/13893 mappings]. Threads: 1:15 min total, 19.9 sec processing.
+[2017.11.16-21.16.39:202][605]LogMaterial:Warning: Material /Game/ZombieGame/Custom_assets/booktop_Mat.booktop_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.11.16-21.16.39:205][605]LogMaterial: Missing cached shader map for material booktop_Mat, compiling. 
+[2017.11.16-21.16.39:225][605]LogMaterial:Warning: Material /Game/ZombieGame/Custom_assets/Book_Red.Book_Red needed to have new flag set bUsedWithStaticLighting !
+[2017.11.16-21.16.39:228][605]LogMaterial: Missing cached shader map for material Book_Red, compiling. 
+[2017.11.16-21.16.39:248][605]LogMaterial:Warning: Material /Game/ZombieGame/Custom_assets/books_Mat.books_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.11.16-21.16.39:250][605]LogMaterial: Missing cached shader map for material books_Mat, compiling. 
+[2017.11.16-21.16.39:269][605]LogMaterial:Warning: Material /Game/PolymodelsLibrary/Textures/tx_BookCover_Mat.tx_BookCover_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.11.16-21.16.39:271][605]LogMaterial: Missing cached shader map for material tx_BookCover_Mat, compiling. 
+[2017.11.16-21.16.39:655][605]LogStaticLightingSystem: Illumination: 30.0 sec (428 ms encoding lightmaps, 268 ms encoding shadowmaps)
+[2017.11.16-21.16.39:655][605]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (0.0 MB streaming, 4.0 MB non-streaming), 8 textures
+[2017.11.16-21.16.39:655][605]LogStaticLightingSystem: Shadowmap texture memory: 5.4 MB (0.0 MB streaming, 5.3 MB non-streaming), 3 textures
+[2017.11.16-21.16.39:900][605]DumpUnbuiltLightIteractions
+[2017.11.16-21.16.39:900][605]Lights with unbuilt interactions: 0
+[2017.11.16-21.16.39:900][605]
+[2017.11.16-21.16.39:900][605]Primitives with unbuilt interactions: 0
+[2017.11.16-21.16.39:923][606]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.16-21.16.39:923][606]MapCheck: New page: OldLibrary - Nov 16, 2017, 9:16:39 AM
+[2017.11.16-21.16.39:929][606]MapCheck:Warning: Warning SM_Exo_Decos_Door03_2 Static mesh actor has NULL StaticMesh property 
+[2017.11.16-21.16.39:929][606]MapCheck:Warning: Warning SM_Exo_Decos_Door03_2 Static mesh actor has NULL StaticMesh property 
+[2017.11.16-21.16.40:001][606]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 78.296ms to complete.
+[2017.11.16-21.16.59:071][392]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.16-21.16.59:219][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.16.59:219][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-21.16.59:222][392]PIE: New page: PIE session: OldLibrary (Nov 16, 2017, 9:16:59 AM)
+[2017.11.16-21.16.59:222][392]LogPlayLevel: Creating play world package: /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary
+[2017.11.16-21.16.59:610][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.388269s)
+[2017.11.16-21.16.59:611][392]LogAIModule: Creating AISystem for world OldLibrary
+[2017.11.16-21.16.59:611][392]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2017.11.16-21.16.59:612][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ZombieGame/Levels/OldLibrary.OldLibrary to /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary.OldLibrary (0.390331s)
+[2017.11.16-21.16.59:633][392]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-21.16.59:639][392]LogInit: FAudioDevice initialized.
+[2017.11.16-21.16.59:683][392]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.16-21.16.59:704][392]LogWorld: Bringing World /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary.OldLibrary up for play (max tick rate 0) at 2017.11.16-15.16.59
+[2017.11.16-21.16.59:706][392]LogWorld: Bringing up level for play took: 0.020344
+[2017.11.16-21.16.59:738][392]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.11.16-21.16.59:741][392]PIE: Info Play in editor start time for /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary 1.008
+[2017.11.16-21.16.59:741][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.17.02:286][521]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.17.02:346][521]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.17.11:016][898]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.16-21.17.11:027][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.17.11:027][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-21.17.11:028][898]PIE: New page: PIE session: OldLibrary (Nov 16, 2017, 9:17:11 AM)
+[2017.11.16-21.17.11:028][898]LogPlayLevel: Creating play world package: /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary
+[2017.11.16-21.17.11:411][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.382904s)
+[2017.11.16-21.17.11:411][898]LogAIModule: Creating AISystem for world OldLibrary
+[2017.11.16-21.17.11:412][898]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2017.11.16-21.17.11:413][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ZombieGame/Levels/OldLibrary.OldLibrary to /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary.OldLibrary (0.384924s)
+[2017.11.16-21.17.11:430][898]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-21.17.11:435][898]LogInit: FAudioDevice initialized.
+[2017.11.16-21.17.11:461][898]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.16-21.17.11:479][898]LogWorld: Bringing World /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary.OldLibrary up for play (max tick rate 0) at 2017.11.16-15.17.11
+[2017.11.16-21.17.11:480][898]LogWorld: Bringing up level for play took: 0.018229
+[2017.11.16-21.17.11:482][898]PIE: Info Play in editor start time for /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary 0.75
+[2017.11.16-21.17.11:483][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.17.12:635][953]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.17.12:692][953]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.18.09:873][953]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.16-21.18.09:884][953]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.18.09:885][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-21.18.09:885][953]PIE: New page: PIE session: OldLibrary (Nov 16, 2017, 9:18:09 AM)
+[2017.11.16-21.18.09:885][953]LogPlayLevel: Creating play world package: /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary
+[2017.11.16-21.18.10:274][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.389529s)
+[2017.11.16-21.18.10:275][953]LogAIModule: Creating AISystem for world OldLibrary
+[2017.11.16-21.18.10:275][953]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2017.11.16-21.18.10:276][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ZombieGame/Levels/OldLibrary.OldLibrary to /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary.OldLibrary (0.391299s)
+[2017.11.16-21.18.10:296][953]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-21.18.10:302][953]LogInit: FAudioDevice initialized.
+[2017.11.16-21.18.10:333][953]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.16-21.18.10:351][953]LogWorld: Bringing World /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary.OldLibrary up for play (max tick rate 0) at 2017.11.16-15.18.10
+[2017.11.16-21.18.10:353][953]LogWorld: Bringing up level for play took: 0.018814
+[2017.11.16-21.18.10:355][953]PIE: Info Play in editor start time for /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary -0.378
+[2017.11.16-21.18.10:355][953]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.19.36:699][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.19.36:756][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.20.04:183][159]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.16-21.20.04:653][186]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.11.16-21.20.05:567][278]Cmd: DELETE
+[2017.11.16-21.20.05:567][278]Cmd: ACTOR DELETE
+[2017.11.16-21.20.05:597][278]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.11.16-21.20.05:616][278]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2017.11.16-21.20.07:605][492]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2017.11.16-21.20.07:827][511]Cmd: DELETE
+[2017.11.16-21.20.07:827][511]Cmd: ACTOR DELETE
+[2017.11.16-21.20.07:853][511]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.11.16-21.20.07:865][511]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2017.11.16-21.20.56:326][272]LogSavePackage: Save=5413.89ms
+[2017.11.16-21.20.56:326][272]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/OldLibrary_Auto1EE561FD345EB18272A006AA78DBD215B.tmp' to 'D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Levels/OldLibrary_Auto1.umap'
+[2017.11.16-21.20.56:329][272]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Levels/OldLibrary_Auto1.umap
+[2017.11.16-21.20.56:351][272]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ZombieGame/Levels/OldLibrary' took 5.511
+[2017.11.16-21.20.56:351][272]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.511
+[2017.11.16-21.20.56:354][272]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ZombieGame/Levels/OldLibrary_BuiltData] ([1] browsable assets)...
+[2017.11.16-21.20.56:354][272]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieGame/Levels/OldLibrary_BuiltData]
+[2017.11.16-21.20.56:377][272]LogSavePackage: Save=19.44ms
+[2017.11.16-21.20.56:377][272]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/OldLibrary_BuiltData_Auto10D204BB044A5B70913FAF3A4CFEDEE53.tmp' to 'D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Levels/OldLibrary_BuiltData_Auto1.uasset'
+[2017.11.16-21.20.56:378][272]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Levels/OldLibrary_BuiltData_Auto1.uasset
+[2017.11.16-21.20.56:378][272]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PolymodelsLibrary/Textures/tx_BookCover_Mat] ([1] browsable assets)...
+[2017.11.16-21.20.56:429][272]OBJ SavePackage:     Rendered thumbnail for [Material /Game/PolymodelsLibrary/Textures/tx_BookCover_Mat.tx_BookCover_Mat]
+[2017.11.16-21.20.56:429][272]OBJ SavePackage: Finished generating thumbnails for package [/Game/PolymodelsLibrary/Textures/tx_BookCover_Mat]
+[2017.11.16-21.20.56:448][272]LogSavePackage: Save=14.82ms
+[2017.11.16-21.20.56:449][272]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/tx_BookCover_Mat_Auto1261F3CFB40E08E24EC678D9B1CBF596E.tmp' to 'D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/PolymodelsLibrary/Textures/tx_BookCover_Mat_Auto1.uasset'
+[2017.11.16-21.20.56:449][272]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/PolymodelsLibrary/Textures/tx_BookCover_Mat_Auto1.uasset
+[2017.11.16-21.20.56:449][272]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieGame/Custom_assets/Book_Red] ([1] browsable assets)...
+[2017.11.16-21.20.56:475][272]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ZombieGame/Custom_assets/Book_Red.Book_Red]
+[2017.11.16-21.20.56:475][272]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieGame/Custom_assets/Book_Red]
+[2017.11.16-21.20.56:494][272]LogSavePackage: Save=14.99ms
+[2017.11.16-21.20.56:494][272]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/Book_Red_Auto19FA36C2E48FD310A735938AFDCD65DF3.tmp' to 'D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Custom_assets/Book_Red_Auto1.uasset'
+[2017.11.16-21.20.56:495][272]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Custom_assets/Book_Red_Auto1.uasset
+[2017.11.16-21.20.56:495][272]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieGame/Custom_assets/books_Mat] ([1] browsable assets)...
+[2017.11.16-21.20.56:519][272]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ZombieGame/Custom_assets/books_Mat.books_Mat]
+[2017.11.16-21.20.56:519][272]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieGame/Custom_assets/books_Mat]
+[2017.11.16-21.20.56:537][272]LogSavePackage: Save=13.61ms
+[2017.11.16-21.20.56:537][272]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/books_Mat_Auto12828BE4240E0CC9CC9E020A8AF2488EF.tmp' to 'D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Custom_assets/books_Mat_Auto1.uasset'
+[2017.11.16-21.20.56:538][272]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Custom_assets/books_Mat_Auto1.uasset
+[2017.11.16-21.20.56:538][272]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieGame/Custom_assets/booktop_Mat] ([1] browsable assets)...
+[2017.11.16-21.20.56:567][272]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ZombieGame/Custom_assets/booktop_Mat.booktop_Mat]
+[2017.11.16-21.20.56:567][272]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieGame/Custom_assets/booktop_Mat]
+[2017.11.16-21.20.56:586][272]LogSavePackage: Save=13.24ms
+[2017.11.16-21.20.56:586][272]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/booktop_Mat_Auto167A896224DE572329471508E7C9774D7.tmp' to 'D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Custom_assets/booktop_Mat_Auto1.uasset'
+[2017.11.16-21.20.56:587][272]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Custom_assets/booktop_Mat_Auto1.uasset
+[2017.11.16-21.20.56:587][272]LogFileHelpers: Auto-saving content packages took 0.233
+[2017.11.16-21.26.26:137][978]MapCheck: New page: Map Check
+[2017.11.16-21.26.26:166][978]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.16-21.26.26:171][978]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.16-21.31.01:951][978]LightingResults: New page: Lighting Build - Nov 16, 2017, 9:31:01 AM
+[2017.11.16-21.31.02:440][978]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.16-21.31.02:441][978]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.16-21.31.02:441][978]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.16-21.31.02:442][978]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.16-21.31.02:442][978]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3824
+[2017.11.16-21.31.07:595][978]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.16-21.31.07:595][978]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.16-21.31.07:595][978]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.16-21.31.07:595][978]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.16-21.31.07:595][978]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.16-21.31.08:284][978]LogEditorBuildUtils: Build time 4:42
+[2017.11.16-21.31.08:303][978]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer books_Mat, compiling. 
+[2017.11.16-21.31.08:309][978]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer books_Mat, compiling. 
+[2017.11.16-21.31.08:340][979]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer booktop_Mat, compiling. 
+[2017.11.16-21.31.08:346][979]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer booktop_Mat, compiling. 
+[2017.11.16-21.31.08:491][980]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Book_Red, compiling. 
+[2017.11.16-21.31.08:498][980]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Book_Red, compiling. 
+[2017.11.16-21.31.08:538][981]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer tx_BookCover_Mat, compiling. 
+[2017.11.16-21.31.08:547][981]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer tx_BookCover_Mat, compiling. 
+[2017.11.16-21.31.13:421][ 48]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.11.16-21.31.13:421][ 48]LightingResults: Info <None> Lightmap UV are overlapping by 34.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.16-21.31.13:861][ 57]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.11.16-21.31.13:861][ 57]LightingResults: Info <None> Lightmap UV are overlapping by 18.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.16-21.31.19:861][150]Job is a success!
+[2017.11.16-21.31.24:933][150]LogSavePackage: Save=6423.85ms
+[2017.11.16-21.31.24:933][150]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/OldLibrary_Auto2F25340CF4B8DD8B267358BA84B5227C1.tmp' to 'D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Levels/OldLibrary_Auto2.umap'
+[2017.11.16-21.31.24:935][150]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Levels/OldLibrary_Auto2.umap
+[2017.11.16-21.31.24:937][150]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ZombieGame/Levels/OldLibrary' took 6.493
+[2017.11.16-21.31.24:937][150]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.493
+[2017.11.16-21.31.27:872][151]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.16-21.31.27:872][151]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.16-21.31.27:872][151]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.11.16-21.31.27:872][151]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.11.16-21.31.27:872][151]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2017.11.16-21.31.27:872][151]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
+[2017.11.16-21.31.27:872][151]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
+[2017.11.16-21.31.27:872][151]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2017.11.16-21.31.28:072][151]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 128X32)
+[2017.11.16-21.31.28:072][151]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2017.11.16-21.31.28:127][151]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 1024X1024)
+[2017.11.16-21.31.28:255][151]Lightmass on T248-3: 16.8 sec total, 372 ms importing, 84 ms setup, 674 ms photons, 15.7 sec processing, 0 ms extra exporting [13893/13893 mappings]. Threads: 1:49 min total, 16.2 sec processing.
+[2017.11.16-21.31.28:684][151]LogStaticLightingSystem: Illumination: 26.6 sec (371 ms encoding lightmaps, 253 ms encoding shadowmaps)
+[2017.11.16-21.31.28:684][151]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (0.0 MB streaming, 4.0 MB non-streaming), 8 textures
+[2017.11.16-21.31.28:684][151]LogStaticLightingSystem: Shadowmap texture memory: 5.4 MB (0.0 MB streaming, 5.3 MB non-streaming), 3 textures
+[2017.11.16-21.31.36:669][151]DumpUnbuiltLightIteractions
+[2017.11.16-21.31.36:669][151]Lights with unbuilt interactions: 0
+[2017.11.16-21.31.36:669][151]
+[2017.11.16-21.31.36:669][151]Primitives with unbuilt interactions: 0
+[2017.11.16-21.31.36:681][152]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.16-21.31.36:681][152]MapCheck: New page: OldLibrary - Nov 16, 2017, 9:31:36 AM
+[2017.11.16-21.31.36:777][152]MapCheck:Warning: Warning SM_Exo_Decos_Door03_2 Static mesh actor has NULL StaticMesh property 
+[2017.11.16-21.31.36:777][152]MapCheck:Warning: Warning SM_Exo_Decos_Door03_2 Static mesh actor has NULL StaticMesh property 
+[2017.11.16-21.31.36:816][152]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 134.446ms to complete.
+[2017.11.16-21.32.05:871][282]AssetReimport: New page: Outstanding source content changes 9:32:05 AM
+[2017.11.16-21.32.05:875][282]LogEditorFactories: Performing atomic reimport of [D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/books.PNG]
+[2017.11.16-21.32.05:875][282]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/books.PNG)
+[2017.11.16-21.32.05:978][282]LogEditorFactories: -- imported successfully
+[2017.11.16-21.32.06:107][283]LogEditorFactories: Performing atomic reimport of [D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/Bookself 1.PNG]
+[2017.11.16-21.32.06:108][283]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/Bookself 1.PNG)
+[2017.11.16-21.32.06:211][283]LogEditorFactories: -- imported successfully
+[2017.11.16-21.32.06:270][284]LogEditorFactories: Performing atomic reimport of [D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/booktop.PNG]
+[2017.11.16-21.32.06:271][284]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/booktop.PNG)
+[2017.11.16-21.32.06:379][284]LogEditorFactories: -- imported successfully
+[2017.11.16-21.32.06:504][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieGame/Custom_assets/books" FILE="D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/books.uasset" SILENT=true
+[2017.11.16-21.32.06:540][285]LogSavePackage: Save=32.46ms
+[2017.11.16-21.32.06:540][285]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/books5578FED24532D1E0E3323CBF791311F0.tmp' to 'D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/books.uasset'
+[2017.11.16-21.32.06:541][285]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/books.uasset
+[2017.11.16-21.32.06:553][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieGame/Custom_assets/Bookself_1" FILE="D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/Bookself_1.uasset" SILENT=true
+[2017.11.16-21.32.06:588][285]LogSavePackage: Save=30.48ms
+[2017.11.16-21.32.06:588][285]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/Bookself_191073EDE4A7DB1B78425B18E8B3761D8.tmp' to 'D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/Bookself_1.uasset'
+[2017.11.16-21.32.06:589][285]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/Bookself_1.uasset
+[2017.11.16-21.32.06:597][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieGame/Custom_assets/booktop" FILE="D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/booktop.uasset" SILENT=true
+[2017.11.16-21.32.06:617][285]LogSavePackage: Save=16.80ms
+[2017.11.16-21.32.06:617][285]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/booktopBF056F5D4DF5B785B35FDBADF8DF9254.tmp' to 'D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/booktop.uasset'
+[2017.11.16-21.32.06:618][285]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/booktop.uasset
+[2017.11.16-21.32.09:633][421]AssetReimport: Info Reimported asset books from D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/books.PNG.
+[2017.11.16-21.32.09:633][421]AssetReimport: Info Reimported asset Bookself_1 from D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/Bookself 1.PNG.
+[2017.11.16-21.32.09:633][421]AssetReimport: Info Reimported asset booktop from D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/booktop.PNG.
+[2017.11.16-21.32.26:208][200]Cmd: DELETE
+[2017.11.16-21.32.26:208][200]Cmd: ACTOR DELETE
+[2017.11.16-21.32.26:236][200]LogEditorActor: Deleted Actor: SpotLight
+[2017.11.16-21.32.26:247][200]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2017.11.16-21.33.40:062][626]LogSlate: Took 0.006385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.16-21.33.55:661][208]Cmd: DELETE
+[2017.11.16-21.33.55:661][208]Cmd: ACTOR DELETE
+[2017.11.16-21.33.55:688][208]LogEditorActor: Deleted Actor: PointLight
+[2017.11.16-21.33.55:708][208]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2017.11.16-21.36.51:281][407]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.16-21.36.58:017][649]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.11.16-21.36.59:171][690]Cmd: DELETE
+[2017.11.16-21.36.59:171][690]Cmd: ACTOR DELETE
+[2017.11.16-21.36.59:199][690]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.11.16-21.36.59:212][690]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2017.11.16-21.37.16:259][476]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.16-21.37.18:251][565]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.16-21.37.27:673][964]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.16-21.38.37:473][102]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.16-21.38.47:088][525]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.16-21.39.25:203][271]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.16-21.39.43:572][ 43]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.16-21.40.15:050][396]Cmd: TRANSACTION UNDO
+[2017.11.16-21.40.15:050][396]LogEditorTransaction: Undo Edit Properties
+[2017.11.16-21.40.16:265][443]Cmd: TRANSACTION UNDO
+[2017.11.16-21.40.16:265][443]LogEditorTransaction: Undo Edit Cubemap Resolution
+[2017.11.16-21.40.17:083][477]Cmd: TRANSACTION UNDO
+[2017.11.16-21.40.17:083][477]LogEditorTransaction: Undo Edit Properties
+[2017.11.16-21.40.17:570][498]Cmd: TRANSACTION UNDO
+[2017.11.16-21.40.17:570][498]LogEditorTransaction: Undo Edit Indirect Lighting Intensity
+[2017.11.16-21.40.18:107][520]Cmd: TRANSACTION UNDO
+[2017.11.16-21.40.18:107][520]LogEditorTransaction: Undo Edit Indirect Lighting Intensity
+[2017.11.16-21.41.22:725][283]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.16-21.41.22:736][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.41.22:736][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-21.41.22:736][283]PIE: New page: PIE session: OldLibrary (Nov 16, 2017, 9:41:22 AM)
+[2017.11.16-21.41.22:736][283]LogPlayLevel: Creating play world package: /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary
+[2017.11.16-21.41.23:130][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.393327s)
+[2017.11.16-21.41.23:131][283]LogAIModule: Creating AISystem for world OldLibrary
+[2017.11.16-21.41.23:131][283]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2017.11.16-21.41.23:132][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ZombieGame/Levels/OldLibrary.OldLibrary to /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary.OldLibrary (0.395698s)
+[2017.11.16-21.41.23:151][283]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-21.41.23:156][283]LogInit: FAudioDevice initialized.
+[2017.11.16-21.41.23:186][283]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.16-21.41.23:207][283]LogWorld: Bringing World /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary.OldLibrary up for play (max tick rate 0) at 2017.11.16-15.41.23
+[2017.11.16-21.41.23:208][283]LogWorld: Bringing up level for play took: 0.021268
+[2017.11.16-21.41.23:211][283]PIE: Info Play in editor start time for /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary 0.456
+[2017.11.16-21.41.23:212][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.41.24:404][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.41.24:464][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.42.00:873][544]Cmd: TRANSACTION UNDO
+[2017.11.16-21.42.00:873][544]LogEditorTransaction: Undo Move Actors
+[2017.11.16-21.42.01:209][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush347.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:210][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush355.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:210][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush362.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:211][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush321.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:211][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush336.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:213][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush403.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:213][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush418.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:216][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush238.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:218][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush203.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:218][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush252.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:218][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush211.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:219][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush218.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:219][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush291.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:220][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush306.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:221][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush276.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:224][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush552.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:225][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush560.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:225][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush574.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:225][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush648.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:227][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush607.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:228][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush622.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:228][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush466.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:229][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush481.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:230][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush444.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:232][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush522.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:233][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush530.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:233][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush537.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:233][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush496.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:234][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush511.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:235][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush133.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:237][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush116.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:237][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.ConeBrush139.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:238][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.ConeBrush122.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:238][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush155.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:239][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.ConeBrush161.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:241][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.ConeBrush149.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:242][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush91.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:242][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush106.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:418][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush76.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:420][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush106.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:421][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush75.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:423][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush663.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:424][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush228.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:426][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush212.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:426][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush138.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:426][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush218.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:427][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush178.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:428][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush192.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:429][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush163.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:431][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.SphereBrush97.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:431][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.ConeBrush181.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:431][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.SphereBrush100.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:432][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.ConeBrush167.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:433][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush173.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:434][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush200.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:435][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.ConeBrush206.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:437][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1270.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:438][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1284.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:439][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1244.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:440][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1321.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:441][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1329.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:441][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1336.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:442][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1295.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:442][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1310.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:445][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1152.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:446][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush4_8.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:446][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:446][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1214.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:448][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1173_167.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:448][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1229.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:449][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1188_182.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:449][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush41.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:450][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush56.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:452][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush268.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:454][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush97.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:455][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush71.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:457][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1345.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:458][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush31.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:461][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.CylinderBrush256.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:462][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.SphereBrush128.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:464][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush822.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:466][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush781.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:466][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush841.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:466][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush796.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:467][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush882.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:468][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush897.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:469][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush867.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:470][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush704.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:471][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush719.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:472][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush689.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:473][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush755.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:474][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush729.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:476][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1056.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:478][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1015.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:478][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1067.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:479][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1030.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:479][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1118.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:480][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1141.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:482][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1100.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:483][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush933.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:483][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush941.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:484][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush948.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:484][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush912.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:485][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush927.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:486][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush989.BrushComponent0) Component already registered.
+[2017.11.16-21.42.01:487][544]LogActorComponent: ~FComponentReregisterContext: (/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.BoxBrush1000.BrushComponent0) Component already registered.
+[2017.11.16-21.42.15:165][833]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.16-21.42.26:637][305]Cmd: TRANSACTION UNDO
+[2017.11.16-21.42.26:637][305]LogEditorTransaction: Undo Rotate Actors
+[2017.11.16-21.42.31:845][521]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.16-21.42.34:429][612]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.11.16-21.42.36:626][707]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.16-21.42.37:308][735]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.16-21.42.37:321][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.42.37:321][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-21.42.37:322][735]PIE: New page: PIE session: OldLibrary (Nov 16, 2017, 9:42:37 AM)
+[2017.11.16-21.42.37:322][735]LogPlayLevel: Creating play world package: /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary
+[2017.11.16-21.42.37:724][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.402149s)
+[2017.11.16-21.42.37:725][735]LogAIModule: Creating AISystem for world OldLibrary
+[2017.11.16-21.42.37:725][735]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2017.11.16-21.42.37:726][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ZombieGame/Levels/OldLibrary.OldLibrary to /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary.OldLibrary (0.403950s)
+[2017.11.16-21.42.37:767][735]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-21.42.37:773][735]LogInit: FAudioDevice initialized.
+[2017.11.16-21.42.37:803][735]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.16-21.42.37:822][735]LogWorld: Bringing World /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary.OldLibrary up for play (max tick rate 0) at 2017.11.16-15.42.37
+[2017.11.16-21.42.37:824][735]LogWorld: Bringing up level for play took: 0.019791
+[2017.11.16-21.42.37:826][735]PIE: Info Play in editor start time for /Game/ZombieGame/Levels/UEDPIE_0_OldLibrary 1.07
+[2017.11.16-21.42.37:827][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.42.40:705][867]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.42.40:784][867]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel' has LevelScriptBlueprint '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary' with GeneratedClass '/Game/ZombieGame/Levels/OldLibrary.OldLibrary_C' with ClassGeneratedBy '/Game/ZombieGame/Levels/OldLibrary.OldLibrary:PersistentLevel.OldLibrary'
+[2017.11.16-21.42.45:179][ 39]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.16-21.42.54:252][386]MapCheck: New page: Map Check
+[2017.11.16-21.42.54:304][386]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.16-21.42.54:306][386]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.16-21.47.26:001][386]LightingResults: New page: Lighting Build - Nov 16, 2017, 9:47:26 AM
+[2017.11.16-21.47.26:489][386]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.16-21.47.26:490][386]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.16-21.47.26:490][386]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.16-21.47.26:490][386]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.16-21.47.26:490][386]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3824
+[2017.11.16-21.47.31:635][386]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.16-21.47.31:635][386]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.16-21.47.31:635][386]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.16-21.47.31:635][386]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.16-21.47.31:635][386]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.16-21.47.32:339][386]LogEditorBuildUtils: Build time 4:38
+[2017.11.16-21.47.39:984][387]LogSavePackage: Save=6173.68ms
+[2017.11.16-21.47.39:984][387]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/OldLibrary_Auto3AD5BE0AD40D98AF9724D5397CCBFE861.tmp' to 'D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Levels/OldLibrary_Auto3.umap'
+[2017.11.16-21.47.39:986][387]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Levels/OldLibrary_Auto3.umap
+[2017.11.16-21.47.39:990][387]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ZombieGame/Levels/OldLibrary' took 6.251
+[2017.11.16-21.47.39:990][387]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.251
+[2017.11.16-21.47.39:996][387]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ZombieGame/Levels/OldLibrary_BuiltData] ([1] browsable assets)...
+[2017.11.16-21.47.39:996][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieGame/Levels/OldLibrary_BuiltData]
+[2017.11.16-21.47.40:022][387]LogSavePackage: Save=18.91ms
+[2017.11.16-21.47.40:022][387]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/OldLibrary_BuiltData_Auto37249F961455E66F877AAC3A185A1E7E1.tmp' to 'D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Levels/OldLibrary_BuiltData_Auto3.uasset'
+[2017.11.16-21.47.40:023][387]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Saved/Autosaves/Game/ZombieGame/Levels/OldLibrary_BuiltData_Auto3.uasset
+[2017.11.16-21.47.40:023][387]LogFileHelpers: Auto-saving content packages took 0.027
+[2017.11.16-21.47.44:125][485]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.11.16-21.47.44:125][485]LightingResults: Info <None> Lightmap UV are overlapping by 34.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.16-21.47.44:645][501]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.11.16-21.47.44:645][501]LightingResults: Info <None> Lightmap UV are overlapping by 18.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.16-21.47.50:235][686]Job is a success!
+[2017.11.16-21.47.53:346][687]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.16-21.47.53:346][687]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.16-21.47.53:346][687]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.16-21.47.53:346][687]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2017.11.16-21.47.53:346][687]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.11.16-21.47.53:346][687]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.11.16-21.47.53:346][687]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 128X64)
+[2017.11.16-21.47.53:346][687]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2017.11.16-21.47.53:346][687]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2017.11.16-21.47.53:347][687]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 64X32)
+[2017.11.16-21.47.53:347][687]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
+[2017.11.16-21.47.53:347][687]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
+[2017.11.16-21.47.53:546][687]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 32X32)
+[2017.11.16-21.47.53:546][687]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 128X32)
+[2017.11.16-21.47.53:591][687]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 1024X1024)
+[2017.11.16-21.47.53:714][687]Lightmass on T248-3: 12.0 sec total, 495 ms importing, 96 ms setup, 682 ms photons, 10.5 sec processing, 0 ms extra exporting [13893/13893 mappings]. Threads: 1:13 min total, 16.8 sec processing.
+[2017.11.16-21.47.54:118][687]LogStaticLightingSystem: Illumination: 28.0 sec (544 ms encoding lightmaps, 243 ms encoding shadowmaps)
+[2017.11.16-21.47.54:119][687]LogStaticLightingSystem: Lightmap texture memory:  5.4 MB (0.1 MB streaming, 5.3 MB non-streaming), 8 textures
+[2017.11.16-21.47.54:119][687]LogStaticLightingSystem: Shadowmap texture memory: 5.4 MB (0.0 MB streaming, 5.3 MB non-streaming), 3 textures
+[2017.11.16-21.48.07:602][687]DumpUnbuiltLightIteractions
+[2017.11.16-21.48.07:602][687]Lights with unbuilt interactions: 0
+[2017.11.16-21.48.07:602][687]
+[2017.11.16-21.48.07:602][687]Primitives with unbuilt interactions: 0
+[2017.11.16-21.48.07:614][688]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.16-21.48.07:614][688]MapCheck: New page: OldLibrary - Nov 16, 2017, 9:48:07 AM
+[2017.11.16-21.48.07:682][688]MapCheck:Warning: Warning SM_Exo_Decos_Door03_2 Static mesh actor has NULL StaticMesh property 
+[2017.11.16-21.48.07:682][688]MapCheck:Warning: Warning SM_Exo_Decos_Door03_2 Static mesh actor has NULL StaticMesh property 
+[2017.11.16-21.48.09:038][688]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 1,424.006ms to complete.
+[2017.11.16-21.48.16:317][969]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.16-21.49.24:509][896]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.16-21.49.37:755][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieGame/Levels/OldLibrary" FILE="D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Levels/OldLibrary.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.16-21.49.42:951][373]LogSavePackage: Save=5181.05ms
+[2017.11.16-21.49.42:951][373]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/OldLibrary14AF2D7243DEF1C0D2DF84815C349264.tmp' to 'D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Levels/OldLibrary.umap'
+[2017.11.16-21.49.42:963][373]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Levels/OldLibrary.umap
+[2017.11.16-21.49.42:982][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieGame/Levels/OldLibrary_BuiltData" FILE="D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Levels/OldLibrary_BuiltData.uasset" SILENT=true
+[2017.11.16-21.49.43:173][373]LogSavePackage: Save=189.17ms
+[2017.11.16-21.49.43:173][373]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/OldLibrary_BuiltData2E34E365429142CC2882599AD0CC2739.tmp' to 'D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Levels/OldLibrary_BuiltData.uasset'
+[2017.11.16-21.49.43:177][373]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Levels/OldLibrary_BuiltData.uasset
+[2017.11.16-21.49.53:740][765]Cmd: SELECT NONE
+[2017.11.16-21.50.16:350][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PolymodelsLibrary/Textures/tx_BookCover_Mat" FILE="D:/ProjectInferno/ProjectInferno/Content/PolymodelsLibrary/Textures/tx_BookCover_Mat.uasset" SILENT=true
+[2017.11.16-21.50.16:376][360]LogSavePackage: Save=4.78ms
+[2017.11.16-21.50.16:376][360]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/tx_BookCover_MatA6ADEC8D4DB80FAD78292B9E853CC2EA.tmp' to 'D:/ProjectInferno/ProjectInferno/Content/PolymodelsLibrary/Textures/tx_BookCover_Mat.uasset'
+[2017.11.16-21.50.16:380][360]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Content/PolymodelsLibrary/Textures/tx_BookCover_Mat.uasset
+[2017.11.16-21.50.16:382][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieGame/Custom_assets/Book_Red" FILE="D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/Book_Red.uasset" SILENT=true
+[2017.11.16-21.50.16:394][360]LogSavePackage: Save=5.63ms
+[2017.11.16-21.50.16:394][360]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/Book_RedEDE75E524BF5DD6044F509A629B5F9C2.tmp' to 'D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/Book_Red.uasset'
+[2017.11.16-21.50.16:398][360]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/Book_Red.uasset
+[2017.11.16-21.50.16:400][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieGame/Custom_assets/books_Mat" FILE="D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/books_Mat.uasset" SILENT=true
+[2017.11.16-21.50.16:410][360]LogSavePackage: Save=5.09ms
+[2017.11.16-21.50.16:410][360]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/books_MatBD6859B54B11D8DDDFF9909786A26DC2.tmp' to 'D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/books_Mat.uasset'
+[2017.11.16-21.50.16:413][360]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/books_Mat.uasset
+[2017.11.16-21.50.16:416][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieGame/Custom_assets/booktop_Mat" FILE="D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/booktop_Mat.uasset" SILENT=true
+[2017.11.16-21.50.16:429][360]LogSavePackage: Save=8.30ms
+[2017.11.16-21.50.16:429][360]LogSavePackage: Moving 'D:/ProjectInferno/ProjectInferno/Saved/booktop_Mat8C1FBC0E43546311E634D3A6F6973D46.tmp' to 'D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/booktop_Mat.uasset'
+[2017.11.16-21.50.16:433][360]LogSavePackage:Display: Finished SavePackage D:/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/booktop_Mat.uasset
+[2017.11.16-21.50.16:663][361]Cmd: QUIT_EDITOR
+[2017.11.16-21.50.16:686][361]LogExit: Preparing to exit.
+[2017.11.16-21.50.17:438][361]LogExit: Editor shut down
+[2017.11.16-21.50.17:440][361]LogExit: Transaction tracking system shut down
+[2017.11.16-21.50.17:520][361]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.16-21.50.17:520][361]LogExit: Object subsystem successfully closed.
+[2017.11.16-21.50.17:546][361]LogD3D11RHI: Shutdown
+[2017.11.16-21.50.17:546][361]LogD3D11RHI: CleanupD3DDevice
+[2017.11.16-21.50.17:548][361]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.16-21.50.17:654][361]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2017.11.16-21.50.17:654][361]LogModuleManager: Shutting down and abandoning module SynthBenchmark (526)
+[2017.11.16-21.50.17:654][361]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.11.16-21.50.17:655][361]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.11.16-21.50.17:655][361]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.11.16-21.50.17:655][361]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.11.16-21.50.17:655][361]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.16/FeaturePacks/' was aborted.
+[2017.11.16-21.50.17:655][361]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.11.16-21.50.17:655][361]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.11.16-21.50.17:655][361]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.11.16-21.50.17:655][361]LogDirectoryWatcher: A directory notification for 'D:/ProjectInferno/ProjectInferno/Content/Collections/' was aborted.
+[2017.11.16-21.50.17:656][361]LogDirectoryWatcher: A directory notification for 'D:/ProjectInferno/ProjectInferno/Content/Developers/student/Collections/' was aborted.
+[2017.11.16-21.50.17:656][361]LogDirectoryWatcher: A directory notification for 'D:/ProjectInferno/ProjectInferno/Saved/Collections/' was aborted.
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.11.16-21.50.17:656][361]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.11.16-21.50.17:657][361]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.11.16-21.50.17:658][361]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.11.16-21.50.17:658][361]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.11.16-21.50.17:658][361]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.11.16-21.50.17:658][361]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.16-21.50.17:658][361]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.16-21.50.17:658][361]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.16-21.50.17:658][361]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.16-21.50.18:336][361]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.11.16-21.50.18:336][361]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.11.16-21.50.18:336][361]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.11.16-21.50.18:336][361]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.11.16-21.50.18:339][361]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.11.16-21.50.18:339][361]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.11.16-21.50.18:340][361]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.11.16-21.50.18:340][361]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.11.16-21.50.18:341][361]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.11.16-21.50.18:341][361]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.11.16-21.50.18:341][361]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.11.16-21.50.18:341][361]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.11.16-21.50.18:341][361]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.11.16-21.50.18:341][361]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.16-21.50.18:342][361]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.16-21.50.18:342][361]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.16-21.50.18:342][361]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.16-21.50.18:342][361]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.16-21.50.18:342][361]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.16-21.50.18:342][361]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.16-21.50.18:342][361]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.16-21.50.18:343][361]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.16-21.50.18:343][361]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.16-21.50.18:344][361]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.16-21.50.18:394][361]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.16-21.50.18:394][361]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.16-21.50.18:395][361]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.16-21.50.18:396][361]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.16-21.50.18:396][361]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.16-21.50.18:396][361]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.16-21.50.18:397][361]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.16-21.50.18:397][361]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.16-21.50.18:397][361]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.16-21.50.18:397][361]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.16-21.50.18:397][361]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.11.16-21.50.18:397][361]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.11.16-21.50.18:398][361]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.11.16-21.50.18:398][361]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.11.16-21.50.18:399][361]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.11.16-21.50.18:399][361]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.11.16-21.50.18:399][361]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.11.16-21.50.18:399][361]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.11.16-21.50.18:399][361]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.11.16-21.50.18:399][361]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.11.16-21.50.18:399][361]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.11.16-21.50.18:400][361]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.11.16-21.50.18:400][361]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.11.16-21.50.18:400][361]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.11.16-21.50.18:400][361]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.11.16-21.50.18:400][361]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.11.16-21.50.18:400][361]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.11.16-21.50.18:400][361]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.11.16-21.50.18:400][361]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.11.16-21.50.18:400][361]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.11.16-21.50.18:493][361]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.11.16-21.50.18:496][361]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.11.16-21.50.18:496][361]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.11.16-21.50.18:496][361]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.11.16-21.50.18:497][361]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.11.16-21.50.18:497][361]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.11.16-21.50.18:497][361]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.11.16-21.50.18:497][361]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.11.16-21.50.18:497][361]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.11.16-21.50.18:497][361]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.11.16-21.50.18:497][361]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.11.16-21.50.18:497][361]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.11.16-21.50.18:497][361]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.11.16-21.50.18:497][361]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.11.16-21.50.18:497][361]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.11.16-21.50.18:498][361]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.11.16-21.50.18:499][361]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.11.16-21.50.18:499][361]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.11.16-21.50.18:499][361]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.11.16-21.50.18:499][361]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.11.16-21.50.18:499][361]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.11.16-21.50.18:500][361]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.16-21.50.18:500][361]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.16-21.50.18:500][361]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.16-21.50.18:500][361]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.16-21.50.18:500][361]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.16-21.50.18:500][361]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.16-21.50.18:600][361]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.16-21.50.18:700][361]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.16-21.50.18:703][361]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.16-21.50.18:703][361]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.16-21.50.18:703][361]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.16-21.50.18:703][361]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.16-21.50.18:705][361]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.16-21.50.18:706][361]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.16-21.50.18:706][361]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.16-21.50.18:706][361]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.16-21.50.18:707][361]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.16-21.50.18:708][361]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.16-21.50.18:708][361]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.16-21.50.18:708][361]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.16-21.50.18:708][361]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.16-21.50.18:708][361]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.16-21.50.18:708][361]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.16-21.50.18:709][361]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.16-21.50.18:709][361]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.16-21.50.18:709][361]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.16-21.50.18:709][361]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.16-21.50.18:710][361]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.16-21.50.18:710][361]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.16-21.50.18:710][361]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.16-21.50.18:710][361]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.16-21.50.18:711][361]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.16-21.50.18:711][361]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.16-21.50.18:711][361]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.16-21.50.18:712][361]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.16-21.50.18:712][361]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.16-21.50.18:714][361]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.16-21.50.18:714][361]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.16-21.50.18:714][361]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.16-21.50.18:714][361]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.16-21.50.18:714][361]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.16-21.50.18:714][361]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.16-21.50.18:824][361]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.16-21.50.18:824][361]LogDirectoryWatcher: A directory notification for 'D:/ProjectInferno/ProjectInferno/Content/' was aborted.
+[2017.11.16-21.50.18:824][361]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.16-21.50.18:825][361]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.16-21.50.18:827][361]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.16-21.50.18:827][361]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.16-21.50.18:827][361]LogModuleManager: Shutting down and abandoning module PhysXFormats (156)
+[2017.11.16-21.50.18:827][361]LogModuleManager: Shutting down and abandoning module MeshUtilities (154)
+[2017.11.16-21.50.18:827][361]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (153)
+[2017.11.16-21.50.18:827][361]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (151)
+[2017.11.16-21.50.18:827][361]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (149)
+[2017.11.16-21.50.18:827][361]LogModuleManager: Shutting down and abandoning module LevelSequence (146)
+[2017.11.16-21.50.18:827][361]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.16-21.50.18:871][361]LogDerivedDataCache: Shutdown
+[2017.11.16-21.50.18:871][361]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.16-21.50.18:871][361]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.16-21.50.18:871][361]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.16-21.50.18:874][361]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.16-21.50.18:875][361]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.16-21.50.18:875][361]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.16-21.50.18:875][361]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.16-21.50.18:875][361]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.16-21.50.18:875][361]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.16-21.50.18:875][361]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.16-21.50.18:876][361]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.16-21.50.18:877][361]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.16-21.50.18:877][361]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.16-21.50.18:878][361]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.16-21.50.18:878][361]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.16-21.50.18:878][361]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.16-21.50.18:878][361]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B029E3F1D-40BB-D6F6-0C08-DD90BD3CA123%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3452394%2B%2B%2BUE4%2BRelease-4.16&UserID=42ed91f945ef5fec679bcc8cf2d62b6e%7Ce67724c06ae34bcab9b8bfae92f27281%7C5856b343-0bb1-4fd2-98d9-8fd0986d7c57&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.16-21.50.18:895][361]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.16-21.50.18:896][361]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.16-21.50.18:897][361]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.16-21.50.18:897][361]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.16-21.50.18:897][361]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.16-21.50.18:897][361]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.16-21.50.18:897][361]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.16-21.50.18:897][361]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.16-21.50.18:897][361]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.16-21.50.18:898][361]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.16-21.50.18:899][361]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.16-21.50.18:899][361]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.16-21.50.18:899][361]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.16-21.50.18:899][361]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.16-21.50.18:899][361]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.16-21.50.18:899][361]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.16-21.50.18:899][361]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.16-21.50.18:899][361]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.16-21.50.18:899][361]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.16-21.50.18:900][361]LogExit: Exiting.
+[2017.11.16-21.50.18:909][361]Log file closed, 11/16/17 15:50:18
