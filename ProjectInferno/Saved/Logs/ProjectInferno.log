@@ -331,3 +331,4 @@ LogInit: Object subsystem initialized
 [2017.11.21-22.33.14:442][107]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
 [2017.11.21-22.33.14:477][108]LogPackageName: SearchForPackageOnDisk took   0.115s, but failed to resolve S_ClothTarps_03.
 [2017.11.21-22.33.14:477][108]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2017.11.21-22.47.01:255][819]SourceControl: Source control is disabled

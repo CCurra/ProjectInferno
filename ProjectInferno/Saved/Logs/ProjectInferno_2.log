@@ -288,3 +288,5 @@ LogInit: Object subsystem initialized
 [2017.11.21-22.39.04:752][648]AssetReimport: Reimported asset books from C:/Users/SkyLord/Documents/GitHub/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/books.PNG.
 [2017.11.21-22.39.04:752][648]AssetReimport: Reimported asset Bookself_1 from C:/Users/SkyLord/Documents/GitHub/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/Bookself 1.PNG.
 [2017.11.21-22.39.04:752][648]AssetReimport: Reimported asset booktop from C:/Users/SkyLord/Documents/GitHub/ProjectInferno/ProjectInferno/Content/ZombieGame/Custom_assets/booktop.PNG.
+[2017.11.22-00.13.37:975][959]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.11.22-06.22.21:899][867]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
